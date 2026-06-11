@@ -1,0 +1,116 @@
+{
+  "name": "vizvasanlya-snippet-manager",
+  "title": "Developer Snippet Manager",
+  "subtitle": "Reusable code, tags, and copy workflows",
+  "eyebrow": "Developer tools MVP",
+  "initial": "SN",
+  "accent": "#334155",
+  "description": "Store reusable code snippets, tag by language, track favorites, and copy patterns quickly.",
+  "metrics": [
+    {
+      "label": "Total snippets",
+      "delta": "Reuse",
+      "type": "count"
+    },
+    {
+      "label": "Favorite snippets",
+      "delta": "Core",
+      "type": "count"
+    },
+    {
+      "label": "Tagged rate",
+      "delta": "Search",
+      "type": "percent"
+    },
+    {
+      "label": "Critical snippets",
+      "delta": "Ops",
+      "type": "count"
+    },
+    {
+      "label": "Saved time value",
+      "delta": "Efficiency",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "JavaScript",
+    "Python",
+    "Shell",
+    "Node",
+    "Review",
+    "Favorite"
+  ],
+  "resources": [
+    {
+      "title": "Debounce utility",
+      "owner": "Frontend",
+      "status": "JavaScript",
+      "priority": "High",
+      "dueDate": "2026-06-16",
+      "value": 900,
+      "detail": "Reusable input throttling helper.",
+      "notes": "Add TypeScript version."
+    },
+    {
+      "title": "FastAPI health route",
+      "owner": "Backend",
+      "status": "Python",
+      "priority": "Medium",
+      "dueDate": "2026-06-18",
+      "value": 600,
+      "detail": "Minimal service readiness endpoint.",
+      "notes": "Add database check variant."
+    },
+    {
+      "title": "Git recovery checklist",
+      "owner": "DevOps",
+      "status": "Shell",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 1400,
+      "detail": "Command checklist for local branch recovery.",
+      "notes": "Label destructive commands clearly."
+    },
+    {
+      "title": "Auth middleware",
+      "owner": "API",
+      "status": "Node",
+      "priority": "High",
+      "dueDate": "2026-06-20",
+      "value": 1800,
+      "detail": "Token validation pattern for APIs.",
+      "notes": "Add refresh token example."
+    },
+    {
+      "title": "CSS reset baseline",
+      "owner": "Design",
+      "status": "Favorite",
+      "priority": "Medium",
+      "dueDate": "2026-06-22",
+      "value": 700,
+      "detail": "Compact reset used across prototypes.",
+      "notes": "Review accessibility defaults."
+    },
+    {
+      "title": "SQL pagination pattern",
+      "owner": "Data",
+      "status": "Review",
+      "priority": "High",
+      "dueDate": "2026-06-24",
+      "value": 1200,
+      "detail": "Cursor pagination pattern for large tables.",
+      "notes": "Add index recommendation."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Added auth middleware snippet.",
+      "at": "2026-06-10T11:45:00Z"
+    },
+    {
+      "text": "Marked debounce utility favorite.",
+      "at": "2026-06-06T14:00:00Z"
+    }
+  ]
+}

@@ -1,14 +1,15 @@
-# Snippet Manager
+# Developer Snippet Manager
 
-A developer snippet library for reusable code, tags, language filters, and quick copy workflows.
+Store reusable code snippets, tag by language, track favorites, and copy patterns quickly.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ A developer snippet library for reusable code, tags, language filters, and quick
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.
